@@ -1,2 +1,8 @@
+---------------
 Version:  1.0.0
     -Initial release
+
+---------------
+Version:  1.0.1
+    Fixed:
+        -error generation when a resource is set to 0.
