@@ -11,7 +11,7 @@ script.on_event(defines.events.on_player_created,function(param)
 	local p=game.players[param.player_index]
 
 	-- Now we will add all the items from our mod settings choices.
-	for i,v in pairs(kit) do
+	for i,v in pairs(kit) if v>0 then do
 		p.insert(v)
 	end
 end)
